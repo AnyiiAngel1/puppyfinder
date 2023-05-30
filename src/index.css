@@ -1,0 +1,127 @@
+.main {
+  width: 1170px;
+  margin: 70px auto;
+
+
+}
+
+.single-menu img {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: scale-down;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.dogImage{
+  width: 100%;
+  border:1px solid red;
+}
+
+.menu-column {
+  width: 33.3%;
+}
+
+.menu-column h3 {
+  text-transform: capitlize;
+  text-align: float;
+  font-size: 40px;
+  font-weight: 500px;
+  margin-bottom: 20px;
+}
+.nav{
+  padding-top: 15px;
+  justify-content: center;
+}
+.nav-item{
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+  align-content: center;
+}
+.nav-list{
+  display: Flex;
+  gap: 100px;
+  list-style:none;
+  justify-content: center;
+  
+}
+
+.single-menu {
+  display: flex;
+  align-items: center;
+  margin-right: 21px;
+}
+
+.single-menu img {
+  border-radius: 50%;
+  max-width: 200px;
+  border: 1px dashed #ddd;
+  padding: 3px;
+  margin-right: 50px;
+  transition: .3s;
+}
+
+.single-menu .menu-content {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.single-menu .menu-content h4 {
+  font-size: 20px;
+  font-weight: 300px;
+}
+
+.single-menu:hover img {
+  transform: rotate(360 deg);
+}
+.container {
+background-image: url("background2.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+height:100vh;
+}
+.cards{
+  border:1px solid red;
+}
+.card{
+  background-color: #ddd;
+  border:1px solid red;
+  border-radius: 20px;
+  padding:10px;
+  width: 25%;
+  height: 150px;
+  display: flex;
+  justify-content: baseline;
+  gap:20px;
+}
+.dog-name{
+  font-size: 24px;
+  font-weight: 200;
+}
+.dog-image{
+  width: 40%;
+  height:100%;
+  background-image: url("german\ sherpard.jpeg");
+  border-radius: 100px;
+  background-repeat: no-repeat;
+background-size: cover;
+}
+.section{
+  display: flex;
+  gap: 30px;
+  padding: 50px;
+  flex-wrap:wrap;
+  justify-content: center;
+}
