@@ -1,3 +1,4 @@
+import React from "react";
 import puppy1 from "./german sherpard.jpeg";
 import puppy2 from "./poodle.jpeg";
 import puppy3 from "./serbian husky.jpeg";
@@ -5,8 +6,9 @@ import puppy4 from "./bulldog.jpeg";
 import puppy5 from "./chichuahua.jpeg";
 import puppy6 from "./golden retiever.jpeg";
 import puppy7 from "./border collies.jpeg";
-import DogCard from "./components/DogCard";
-import Dog2 from "./components/Dog2";
+import { Link } from "react-router-dom";
+
+
 
 
 
@@ -22,6 +24,7 @@ const PuppyFinder = () => {
     <div className="container">
       <nav className="nav">
         <ul className="nav-list">
+          
           <li className='nav-item'>
             Home
           </li>
@@ -61,10 +64,14 @@ const PuppyFinder = () => {
         <DogCard />
         <DogCard />
          */}
+         
         <div className="menu-column">
           <div className="single-menu">
+          <Link to="/DogDetail">
             <img src={puppy1} alt="a picture of German Shepherd" />
+            </Link>
             <div className="menu-content">
+            
               <h4>
                 German Shepherd  
               </h4>
