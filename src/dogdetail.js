@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 
 const DogDetail = () => {
@@ -6,9 +8,11 @@ const DogDetail = () => {
     <div className="container">
       <nav className="nav">
         <ul className="nav-list">
+        <Link to="/">
           <li className='nav-item'>
             Home
           </li>
+          </Link>
           <li nav-item>
             Blog
           </li>
